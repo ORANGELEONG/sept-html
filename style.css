@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+    .carousel-inner {
+        max-height: 200px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .carousel-inner {
+        max-height: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-inner {
+        max-height: 500px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .carousel-inner {
+        max-height: 900px;
+    }
+}
+
+.carousel-inner {
+    max-height: 900px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.container-flex-mb {
+    display: flex;
+    width: 109;
+    justify-content: space-around;
+}
